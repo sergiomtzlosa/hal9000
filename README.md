@@ -30,37 +30,6 @@ no traced film artwork.
 
 ---
 
-## Screenshots
-
-<p align="center">
-  <img src="docs/screenshots/main.png" width="820" alt="HAL 9000 main control room">
-</p>
-
-<p align="center">
-  <img src="docs/screenshots/settings.png" width="700" alt="HAL 9000 settings window">
-</p>
-
-<p align="center">
-  <img src="docs/screenshots/help.png" width="700" alt="HAL 9000 operations manual help window">
-</p>
-
-<table>
-  <tr>
-    <td width="50%"><img src="docs/screenshots/hal-3d.png" alt="Procedural 3D HAL eye"></td>
-    <td width="50%"><img src="docs/screenshots/deactivation-room.png" alt="Deactivation room 3D scene"></td>
-  </tr>
-  <tr>
-    <td align="center"><em>HAL 9000 3D model</em></td>
-    <td align="center"><em>Deactivation room</em></td>
-  </tr>
-</table>
-
-<p align="center">
-  <img src="docs/screenshots/boot.png" width="820" alt="HAL 9000 boot sequence">
-</p>
-
----
-
 ## Features
 
 ### The eye
