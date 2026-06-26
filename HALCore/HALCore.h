@@ -1,0 +1,17 @@
+#import <Foundation/Foundation.h>
+
+#import "HALConfiguration.h"
+#import "HALKeychainStore.h"
+#import "HALMessage.h"
+#import "HALMemoryStore.h"
+#import "HALPersonality.h"
+#import "HALPromptBuilder.h"
+#import "HALConversationEngine.h"
+#import "HALDialogueLoader.h"
+#import "HALScriptedEngine.h"
+#import "HALCommandRouter.h"
+#import "HALLLMClient.h"
+#import "HALSSEParser.h"
+#import "HALShipSystem.h"
+#import "HALScenario.h"
+#import "HALShipSimulator.h"

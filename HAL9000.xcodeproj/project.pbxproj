@@ -1,0 +1,980 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		031E67E38FC5422691293B04 /* HALMemoryStore.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B74AD7F8042DEB83C252A4E /* HALMemoryStore.h */; };
+		03ED394A69564C75452412F5 /* HALHotKeyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDED54EA3B43D273B4A7422 /* HALHotKeyManager.m */; };
+		0CBA740330A9859A597540EF /* HALAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E8D745DEC2C09ADC38ED39 /* HALAppController.m */; };
+		0EB9A815AB067AB158C4F42C /* HALChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3B1779DB4B2FABB493A6C8 /* HALChatViewController.m */; };
+		10C8EC18937D1248556ACBAE /* HALCommandRouter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 308F7D621F6960ACB21ADA36 /* HALCommandRouter.h */; };
+		13F135A22600C788349C92C5 /* HALBootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52613F1DA97FAA762F3D4712 /* HALBootViewController.m */; };
+		16E878F060506E95393A2713 /* HALCommandRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A53DA8C3546AEFB1BC1DE1 /* HALCommandRouter.m */; };
+		16FE967E7DC8D07877FB4CDD /* HALHelpWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7425D74EE616953CA6055E97 /* HALHelpWindowController.m */; };
+		188F9E2358472EE2E0EB7F40 /* HALListeningSettingsPane.m in Sources */ = {isa = PBXBuildFile; fileRef = 6314E076417D9D4050C7F3AE /* HALListeningSettingsPane.m */; };
+		18CD6750742C2D898F676EA4 /* HALShipSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 61504B007DA7B6F3EDA87678 /* HALShipSystem.m */; };
+		1AB6A428D35DD65C16A0B3A7 /* HALCore.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8FDDBF1EBE3EECF7E3858546 /* HALCore.h */; };
+		1E30423532681E2E199B17DF /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39D06C16BFA1C50B255E42DA /* SceneKit.framework */; };
+		307CF77E0AA7B3D6A315FBF6 /* HALSSEParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C51B76EFF2903935895A91A /* HALSSEParserTests.m */; };
+		32B8A341CF738EC8158211B7 /* HALSpeechRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = F482097D567C315E4D2E7D03 /* HALSpeechRecognizer.m */; };
+		3421AFE889309DFFC1118522 /* HALConversationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85648E63EF7D0A21D2F435EF /* HALConversationController.m */; };
+		3B91935F19E5ECF5294D44AC /* Dialogue.json in Resources */ = {isa = PBXBuildFile; fileRef = D292CA4248F4542207845073 /* Dialogue.json */; };
+		3DC0E1F8C39B246C677B880E /* HALConfigurationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5BA73288B144F2ADFD0E64 /* HALConfigurationTests.m */; };
+		41E1D4E31119C0CF3A14B4B6 /* HALMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9158B14B652D4BDE36B3872 /* HALMainViewController.m */; };
+		42C5A492EAE8007EF6E37593 /* HALPersonality.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AA616218D692292157C705 /* HALPersonality.m */; };
+		46F7A903EF2D125860836BB7 /* HAL9000.icns in Resources */ = {isa = PBXBuildFile; fileRef = CB2C7A6BBD723DAD75905851 /* HAL9000.icns */; };
+		4799FF47F6937EAA45BAD642 /* HALScriptedEngine.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A90633A55365B180C493A3A /* HALScriptedEngine.h */; };
+		490D0AB5E3BEE6285E972D65 /* HALScriptedEngineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31CC2546633DEA1D1327C1CB /* HALScriptedEngineTests.m */; };
+		4940B1D239A02B70106A8BD5 /* UniformTypeIdentifiers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BC2D285401559881BA7EE8 /* UniformTypeIdentifiers.framework */; };
+		4961EBDF67CF6B5BE3E12234 /* HALShipSimulator.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 17DFD1C40A617E0E0903C592 /* HALShipSimulator.h */; };
+		4BB323219A04CF23FB256254 /* HALScenario.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CBDD28BF3DB55313C417F15F /* HALScenario.h */; };
+		50C7BBF4088951487C999B55 /* HALDialogueLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = E5420EE81C934ECDF398D0C1 /* HALDialogueLoader.m */; };
+		52BEF9FD13EB817D613BFCE7 /* HALConfiguration.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9FE1CD5B4F1ADBB90247F482 /* HALConfiguration.h */; };
+		56C70A7DC0F969DF588163FD /* HALSettingsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D6D1A4A44CB8D0592D671A /* HALSettingsWindowController.m */; };
+		5705B63D130AD7A4F31E2EA8 /* HALAboutWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9024906348DB2D9341CE8E /* HALAboutWindowController.m */; };
+		580473BA00A2768EE6622E9E /* HALAdvancedSettingsPane.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC282A6D81DC3B79BB8E9EC /* HALAdvancedSettingsPane.m */; };
+		594356A9BCD6E6B0D55EDD11 /* HALMenuBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3941D7817322804AA925072A /* HALMenuBarController.m */; };
+		5AEA5BF9000DD9497A06C05E /* HALConversationEngine.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5E48D9D730DF81547B4D8275 /* HALConversationEngine.h */; };
+		5EF71B75059BF21236E1DD51 /* HALVoiceSettingsPane.m in Sources */ = {isa = PBXBuildFile; fileRef = EB893BCEDA07A67D293AE2EB /* HALVoiceSettingsPane.m */; };
+		609C738C11DBFA944BBA3D89 /* HALConversationEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = A153BBD6E85585E81E4B7BBF /* HALConversationEngine.m */; };
+		62F2BFC337242512320B3B21 /* HALMemoryStoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CADD4A7011C04C392764FD /* HALMemoryStoreTests.m */; };
+		63D97FCB9AB9ADF3F4B8326F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E9C4C133A8082D1815E778 /* Security.framework */; };
+		652706C7B81A16B018475615 /* HALMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 693244821ACD00378B642011 /* HALMainWindowController.m */; };
+		65EB945E92AFD53112CAD95B /* HALEyeView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB058E30CEB35E984998826 /* HALEyeView.m */; };
+		68B84C13EF6F1939EE79D2AD /* HALScenario.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B3DBAF0998BE43B689E84F /* HALScenario.m */; };
+		6B7AF1855E439977F00D1211 /* HALSimulationSettingsPane.m in Sources */ = {isa = PBXBuildFile; fileRef = E60E4ABECD276E6070DD992B /* HALSimulationSettingsPane.m */; };
+		760C5B03EBF6489796269AD1 /* HALAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E81314CBC7FE2F1CBAC22DFD /* HALAppDelegate.m */; };
+		77B1BFF5089BAAF4EB2562E8 /* HALPersonality.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D04438F885EF9FF07DD822DA /* HALPersonality.h */; };
+		7E4995D83A7ABF3ABD48CB1B /* HALKeychainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4EB9932E4A9F9413BFE941 /* HALKeychainStore.m */; };
+		8883D05C902BA28492F529EC /* HALShipSimulator.m in Sources */ = {isa = PBXBuildFile; fileRef = CE77222789014347D98BBE05 /* HALShipSimulator.m */; };
+		8C35C203EA90C61FFF2BFB1E /* HALKeychainStore.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2FC08B76C2BA69A8DE884921 /* HALKeychainStore.h */; };
+		8CB56C3274F8162475DD474B /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D8F3374C6C2582598235056 /* ServiceManagement.framework */; };
+		8F5962FC1316AEC6F93B510F /* libHALCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC79381A3CB7CF5E9383DA3B /* libHALCore.a */; };
+		8FFE0302A41863A9E1EE96DD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C1D3854FF51AB4381F91AD7 /* AVFoundation.framework */; };
+		9098D1BAB7EFB48511AFA272 /* HALCinemaWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1815C1D38A736CBC53E09479 /* HALCinemaWindowController.m */; };
+		90CB5EC142A7E98992F712E0 /* HALShipSystem.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0C89BAA3FD5A1D1874A7A1D9 /* HALShipSystem.h */; };
+		9510006FA0C2890400714DC6 /* HALSettingsPane.m in Sources */ = {isa = PBXBuildFile; fileRef = 050BDA8EA70EF44D56655980 /* HALSettingsPane.m */; };
+		98BB3182F388006ABDE01905 /* HALPersonalitySettingsPane.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF691A5C27C21CA4770C489 /* HALPersonalitySettingsPane.m */; };
+		9A5E8271F9F1AFF3174D703D /* HALLaunchAtLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 45865670E7997A0FD2A9EEC1 /* HALLaunchAtLogin.m */; };
+		9BFF7E185E52180EA6C2C5F1 /* HAL3DViewerWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FD4D38DB00D98A9654DA79 /* HAL3DViewerWindowController.m */; };
+		A178BFC96B970BCFD6A47250 /* HALLLMClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D3795E24E7ED81D7A370507B /* HALLLMClient.m */; };
+		A2BDA4EF89F936970184167D /* libHALCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC79381A3CB7CF5E9383DA3B /* libHALCore.a */; };
+		A462F27E340BBB0F0226BF6B /* HALSSEParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C8ECB3B841EA086E0E92E28B /* HALSSEParser.m */; };
+		A6FF1C760867907E950C2087 /* HALPromptBuilder.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BD0DF906EE54D5C3F9533778 /* HALPromptBuilder.h */; };
+		A92C07D4247375B150CEF341 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A0B73E291BB219E026AE2C /* QuartzCore.framework */; };
+		ABF322055F91CA78CA6AF829 /* HALMessage.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABAEACC05845BE4C3082B958 /* HALMessage.h */; };
+		B7CD76DFC4288FF2E559FC4F /* HALTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E910A6C14F0A2ABBFDAFF2 /* HALTheme.m */; };
+		B92A6AE89CEDF498FA37502E /* HALLLMClient.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A48C627A75DA8880FC047A6A /* HALLLMClient.h */; };
+		BBCA5C869CB86BAFE368B124 /* HALDeactivationRoomScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E65FBD5941FF1A34CB87FF4 /* HALDeactivationRoomScene.m */; };
+		C5E543BC6AA8F84904101B6A /* HALMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 938977C732191A8C604340EE /* HALMenuController.m */; };
+		C8F20519EE31BDB01E40BBD9 /* HALIntelligenceSettingsPane.m in Sources */ = {isa = PBXBuildFile; fileRef = B441A0493B5F70F0B7FCBB63 /* HALIntelligenceSettingsPane.m */; };
+		C9BDF4B204D3F754A1BD95E3 /* HALSpeechSynthesizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 43BD51E0898C1B4A269EAD9C /* HALSpeechSynthesizer.m */; };
+		CB99CE64C911C6ACDEDCF616 /* Speech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AADBD7ECE932DE95E054FE49 /* Speech.framework */; };
+		D3DB76999E9D164866C9EC48 /* HALConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 6106E52C00A3399347984060 /* HALConfiguration.m */; };
+		D7F473540F699A63EB52E263 /* HALStatusSidebarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EBB189541526CC12E0C04E1 /* HALStatusSidebarViewController.m */; };
+		DA334984ECBCFE4E6284E04F /* HALMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A952C1ABAA21AC5BA63C16 /* HALMessage.m */; };
+		DBB87F868BBB97F509F5AEB3 /* HALShipSimulatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 862E2D26569412F8E618755D /* HALShipSimulatorTests.m */; };
+		E18B0890DA957616683AD385 /* HALAppearanceSettingsPane.m in Sources */ = {isa = PBXBuildFile; fileRef = 72546D765C3CE5023E55722F /* HALAppearanceSettingsPane.m */; };
+		E4599B51ABD36F45738FBB38 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E596CCCAFE5ED4F8906F8651 /* AppKit.framework */; };
+		E660542E1C893AB5DDA50C35 /* HALPromptBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC0D52539CFAAE52ADCB182 /* HALPromptBuilder.m */; };
+		E77A8BA64F448D5F60E76F63 /* HALMemoryStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBEC4D2BA23C6A2433BCA77 /* HALMemoryStore.m */; };
+		E8627ECE8797FD0C886969AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 595807A6184AD83163FFBCC2 /* main.m */; };
+		E938A067919E8BD99E125AB4 /* HALScriptedEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D70E4E011BF8190B020C68A /* HALScriptedEngine.m */; };
+		ED11F3E56747559D23F2322C /* HALSSEParser.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78211243DAFD2510F76431A4 /* HALSSEParser.h */; };
+		EDE9480F2503BCABFEC8FCAB /* HALHAL9000Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = A90F4E6CA0ABABD8086A7412 /* HALHAL9000Scene.m */; };
+		EF5676938EDE4C4174082612 /* HALGeneralSettingsPane.m in Sources */ = {isa = PBXBuildFile; fileRef = 05EF441F1E878B4D582DAA91 /* HALGeneralSettingsPane.m */; };
+		F41E44BA0441207CE6365BF9 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34BED9FED086B36B9B74282D /* Carbon.framework */; };
+		F6B7567FC44A4858EE3E3A34 /* HALPromptBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7793CA8179648BE1C3F1FDD /* HALPromptBuilderTests.m */; };
+		FCE932997107CE7BE2B306A1 /* HALDialogueLoader.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A14854A4A2E11F1F266E9C90 /* HALDialogueLoader.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		208D76CC582727828B32AE48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFCE2035268839024F7E76C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5F85F0ACFBB9BD62A83E643;
+			remoteInfo = HALCore;
+		};
+		3015C5972F6110FF2E7305D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFCE2035268839024F7E76C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5F85F0ACFBB9BD62A83E643;
+			remoteInfo = HALCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5BEE6D997E1ECE996AC77113 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				10C8EC18937D1248556ACBAE /* HALCommandRouter.h in CopyFiles */,
+				52BEF9FD13EB817D613BFCE7 /* HALConfiguration.h in CopyFiles */,
+				5AEA5BF9000DD9497A06C05E /* HALConversationEngine.h in CopyFiles */,
+				1AB6A428D35DD65C16A0B3A7 /* HALCore.h in CopyFiles */,
+				FCE932997107CE7BE2B306A1 /* HALDialogueLoader.h in CopyFiles */,
+				8C35C203EA90C61FFF2BFB1E /* HALKeychainStore.h in CopyFiles */,
+				B92A6AE89CEDF498FA37502E /* HALLLMClient.h in CopyFiles */,
+				031E67E38FC5422691293B04 /* HALMemoryStore.h in CopyFiles */,
+				ABF322055F91CA78CA6AF829 /* HALMessage.h in CopyFiles */,
+				77B1BFF5089BAAF4EB2562E8 /* HALPersonality.h in CopyFiles */,
+				A6FF1C760867907E950C2087 /* HALPromptBuilder.h in CopyFiles */,
+				ED11F3E56747559D23F2322C /* HALSSEParser.h in CopyFiles */,
+				4BB323219A04CF23FB256254 /* HALScenario.h in CopyFiles */,
+				4799FF47F6937EAA45BAD642 /* HALScriptedEngine.h in CopyFiles */,
+				4961EBDF67CF6B5BE3E12234 /* HALShipSimulator.h in CopyFiles */,
+				90CB5EC142A7E98992F712E0 /* HALShipSystem.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		006CCC6367DF809DDDE0C926 /* HALAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALAppDelegate.h; sourceTree = "<group>"; };
+		02AD4632705D3574CA4FF600 /* HALEyeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALEyeView.h; sourceTree = "<group>"; };
+		050BDA8EA70EF44D56655980 /* HALSettingsPane.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALSettingsPane.m; sourceTree = "<group>"; };
+		05EF441F1E878B4D582DAA91 /* HALGeneralSettingsPane.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALGeneralSettingsPane.m; sourceTree = "<group>"; };
+		07A0B73E291BB219E026AE2C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0B31B4BAC4725B551F6D8391 /* HALStatusSidebarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALStatusSidebarViewController.h; sourceTree = "<group>"; };
+		0C89BAA3FD5A1D1874A7A1D9 /* HALShipSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALShipSystem.h; sourceTree = "<group>"; };
+		0D70E4E011BF8190B020C68A /* HALScriptedEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALScriptedEngine.m; sourceTree = "<group>"; };
+		0EDF59BAB48D5881803494C2 /* HALIntelligenceSettingsPane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALIntelligenceSettingsPane.h; sourceTree = "<group>"; };
+		10D6D1A4A44CB8D0592D671A /* HALSettingsWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALSettingsWindowController.m; sourceTree = "<group>"; };
+		12FD4D38DB00D98A9654DA79 /* HAL3DViewerWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAL3DViewerWindowController.m; sourceTree = "<group>"; };
+		15A952C1ABAA21AC5BA63C16 /* HALMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALMessage.m; sourceTree = "<group>"; };
+		17DFD1C40A617E0E0903C592 /* HALShipSimulator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALShipSimulator.h; sourceTree = "<group>"; };
+		1815C1D38A736CBC53E09479 /* HALCinemaWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALCinemaWindowController.m; sourceTree = "<group>"; };
+		1869FBE89FA8E745DCEF1D2F /* HALAboutWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALAboutWindowController.h; sourceTree = "<group>"; };
+		20A53DA8C3546AEFB1BC1DE1 /* HALCommandRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALCommandRouter.m; sourceTree = "<group>"; };
+		22E910A6C14F0A2ABBFDAFF2 /* HALTheme.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALTheme.m; sourceTree = "<group>"; };
+		27E9C4C133A8082D1815E778 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2B74AD7F8042DEB83C252A4E /* HALMemoryStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALMemoryStore.h; sourceTree = "<group>"; };
+		2D563401428AC60D7F27F874 /* HALAppController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALAppController.h; sourceTree = "<group>"; };
+		2E9024906348DB2D9341CE8E /* HALAboutWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALAboutWindowController.m; sourceTree = "<group>"; };
+		2FC08B76C2BA69A8DE884921 /* HALKeychainStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALKeychainStore.h; sourceTree = "<group>"; };
+		308F7D621F6960ACB21ADA36 /* HALCommandRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALCommandRouter.h; sourceTree = "<group>"; };
+		31CC2546633DEA1D1327C1CB /* HALScriptedEngineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALScriptedEngineTests.m; sourceTree = "<group>"; };
+		34BED9FED086B36B9B74282D /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		350E25DDC5F6DFC74D03174E /* HAL9000.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HAL9000.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3941D7817322804AA925072A /* HALMenuBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALMenuBarController.m; sourceTree = "<group>"; };
+		39D06C16BFA1C50B255E42DA /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		3A90633A55365B180C493A3A /* HALScriptedEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALScriptedEngine.h; sourceTree = "<group>"; };
+		3B595B3049F43662A5809C4E /* HALSettingsPane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALSettingsPane.h; sourceTree = "<group>"; };
+		3C5D54C281B1B11808F17A17 /* HALHelpWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALHelpWindowController.h; sourceTree = "<group>"; };
+		3FBEC4D2BA23C6A2433BCA77 /* HALMemoryStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALMemoryStore.m; sourceTree = "<group>"; };
+		43BD51E0898C1B4A269EAD9C /* HALSpeechSynthesizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALSpeechSynthesizer.m; sourceTree = "<group>"; };
+		45865670E7997A0FD2A9EEC1 /* HALLaunchAtLogin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALLaunchAtLogin.m; sourceTree = "<group>"; };
+		48AA616218D692292157C705 /* HALPersonality.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALPersonality.m; sourceTree = "<group>"; };
+		492FA6E3576F8CBF13C901FF /* HALChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALChatViewController.h; sourceTree = "<group>"; };
+		4BDDF7FCCB708509A6A1DC2B /* HALMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALMainViewController.h; sourceTree = "<group>"; };
+		52613F1DA97FAA762F3D4712 /* HALBootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALBootViewController.m; sourceTree = "<group>"; };
+		52CADD4A7011C04C392764FD /* HALMemoryStoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALMemoryStoreTests.m; sourceTree = "<group>"; };
+		542F1D0399AC5BBE99B4D9D6 /* HALLaunchAtLogin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALLaunchAtLogin.h; sourceTree = "<group>"; };
+		595807A6184AD83163FFBCC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D4EB9932E4A9F9413BFE941 /* HALKeychainStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALKeychainStore.m; sourceTree = "<group>"; };
+		5DF691A5C27C21CA4770C489 /* HALPersonalitySettingsPane.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALPersonalitySettingsPane.m; sourceTree = "<group>"; };
+		5E48D9D730DF81547B4D8275 /* HALConversationEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALConversationEngine.h; sourceTree = "<group>"; };
+		5E65FBD5941FF1A34CB87FF4 /* HALDeactivationRoomScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALDeactivationRoomScene.m; sourceTree = "<group>"; };
+		6106E52C00A3399347984060 /* HALConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALConfiguration.m; sourceTree = "<group>"; };
+		61504B007DA7B6F3EDA87678 /* HALShipSystem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALShipSystem.m; sourceTree = "<group>"; };
+		6314E076417D9D4050C7F3AE /* HALListeningSettingsPane.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALListeningSettingsPane.m; sourceTree = "<group>"; };
+		63C7BD19FF617B52FF35F5CF /* HALListeningSettingsPane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALListeningSettingsPane.h; sourceTree = "<group>"; };
+		693244821ACD00378B642011 /* HALMainWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALMainWindowController.m; sourceTree = "<group>"; };
+		6A04BA92EC79EF0517B04863 /* HALSettingsWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALSettingsWindowController.h; sourceTree = "<group>"; };
+		6C51B76EFF2903935895A91A /* HALSSEParserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALSSEParserTests.m; sourceTree = "<group>"; };
+		72546D765C3CE5023E55722F /* HALAppearanceSettingsPane.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALAppearanceSettingsPane.m; sourceTree = "<group>"; };
+		7425D74EE616953CA6055E97 /* HALHelpWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALHelpWindowController.m; sourceTree = "<group>"; };
+		771AA98F39743368A1E9F826 /* HALSpeechSynthesizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALSpeechSynthesizer.h; sourceTree = "<group>"; };
+		78211243DAFD2510F76431A4 /* HALSSEParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALSSEParser.h; sourceTree = "<group>"; };
+		78BC2D285401559881BA7EE8 /* UniformTypeIdentifiers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UniformTypeIdentifiers.framework; path = System/Library/Frameworks/UniformTypeIdentifiers.framework; sourceTree = SDKROOT; };
+		79F3A4273F23E7B7584C7CA9 /* HALSimulationSettingsPane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALSimulationSettingsPane.h; sourceTree = "<group>"; };
+		7AC282A6D81DC3B79BB8E9EC /* HALAdvancedSettingsPane.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALAdvancedSettingsPane.m; sourceTree = "<group>"; };
+		849E3628A016C0BCDC4644AD /* HALBootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALBootViewController.h; sourceTree = "<group>"; };
+		85648E63EF7D0A21D2F435EF /* HALConversationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALConversationController.m; sourceTree = "<group>"; };
+		862E2D26569412F8E618755D /* HALShipSimulatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALShipSimulatorTests.m; sourceTree = "<group>"; };
+		88AF6C5F75259C9669F0A14B /* HALHotKeyManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALHotKeyManager.h; sourceTree = "<group>"; };
+		8D8F3374C6C2582598235056 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+		8FDDBF1EBE3EECF7E3858546 /* HALCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALCore.h; sourceTree = "<group>"; };
+		90E8D745DEC2C09ADC38ED39 /* HALAppController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALAppController.m; sourceTree = "<group>"; };
+		938977C732191A8C604340EE /* HALMenuController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALMenuController.m; sourceTree = "<group>"; };
+		9C1D3854FF51AB4381F91AD7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9EBB189541526CC12E0C04E1 /* HALStatusSidebarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALStatusSidebarViewController.m; sourceTree = "<group>"; };
+		9FE1CD5B4F1ADBB90247F482 /* HALConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALConfiguration.h; sourceTree = "<group>"; };
+		A14854A4A2E11F1F266E9C90 /* HALDialogueLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALDialogueLoader.h; sourceTree = "<group>"; };
+		A153BBD6E85585E81E4B7BBF /* HALConversationEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALConversationEngine.m; sourceTree = "<group>"; };
+		A48C627A75DA8880FC047A6A /* HALLLMClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALLLMClient.h; sourceTree = "<group>"; };
+		A90F4E6CA0ABABD8086A7412 /* HALHAL9000Scene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALHAL9000Scene.m; sourceTree = "<group>"; };
+		AADBD7ECE932DE95E054FE49 /* Speech.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Speech.framework; path = System/Library/Frameworks/Speech.framework; sourceTree = SDKROOT; };
+		ABAEACC05845BE4C3082B958 /* HALMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALMessage.h; sourceTree = "<group>"; };
+		ADB058E30CEB35E984998826 /* HALEyeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALEyeView.m; sourceTree = "<group>"; };
+		B0F59C6542EF2165719EE691 /* HALMenuBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALMenuBarController.h; sourceTree = "<group>"; };
+		B441A0493B5F70F0B7FCBB63 /* HALIntelligenceSettingsPane.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALIntelligenceSettingsPane.m; sourceTree = "<group>"; };
+		B6D00CFAAE235D7ACA810DFC /* HALVoiceSettingsPane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALVoiceSettingsPane.h; sourceTree = "<group>"; };
+		B763A646144C80C40FA68435 /* HALDeactivationRoomScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALDeactivationRoomScene.h; sourceTree = "<group>"; };
+		B7793CA8179648BE1C3F1FDD /* HALPromptBuilderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALPromptBuilderTests.m; sourceTree = "<group>"; };
+		BB219A83AE07FBAD89BC9205 /* HALMainWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALMainWindowController.h; sourceTree = "<group>"; };
+		BD0DF906EE54D5C3F9533778 /* HALPromptBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALPromptBuilder.h; sourceTree = "<group>"; };
+		BEC0D52539CFAAE52ADCB182 /* HALPromptBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALPromptBuilder.m; sourceTree = "<group>"; };
+		C54515D77FC18577C42593AE /* HALAppearanceSettingsPane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALAppearanceSettingsPane.h; sourceTree = "<group>"; };
+		C5A97ACEFE803D9D2B3217B2 /* HALGeneralSettingsPane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALGeneralSettingsPane.h; sourceTree = "<group>"; };
+		C8ECB3B841EA086E0E92E28B /* HALSSEParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALSSEParser.m; sourceTree = "<group>"; };
+		CB2C7A6BBD723DAD75905851 /* HAL9000.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = HAL9000.icns; sourceTree = "<group>"; };
+		CBDD28BF3DB55313C417F15F /* HALScenario.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALScenario.h; sourceTree = "<group>"; };
+		CE77222789014347D98BBE05 /* HALShipSimulator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALShipSimulator.m; sourceTree = "<group>"; };
+		CEDED54EA3B43D273B4A7422 /* HALHotKeyManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALHotKeyManager.m; sourceTree = "<group>"; };
+		D04438F885EF9FF07DD822DA /* HALPersonality.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALPersonality.h; sourceTree = "<group>"; };
+		D07B3DC15B9117E837BB537C /* HALMenuController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALMenuController.h; sourceTree = "<group>"; };
+		D292CA4248F4542207845073 /* Dialogue.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Dialogue.json; sourceTree = "<group>"; };
+		D3795E24E7ED81D7A370507B /* HALLLMClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALLLMClient.m; sourceTree = "<group>"; };
+		D4A013776F11510C06B1A5C1 /* HALConversationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALConversationController.h; sourceTree = "<group>"; };
+		D5B3DBAF0998BE43B689E84F /* HALScenario.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALScenario.m; sourceTree = "<group>"; };
+		D9158B14B652D4BDE36B3872 /* HALMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALMainViewController.m; sourceTree = "<group>"; };
+		DF2C7EA9330FFE423BE8729C /* HALPersonalitySettingsPane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALPersonalitySettingsPane.h; sourceTree = "<group>"; };
+		E5420EE81C934ECDF398D0C1 /* HALDialogueLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALDialogueLoader.m; sourceTree = "<group>"; };
+		E596CCCAFE5ED4F8906F8651 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E60E4ABECD276E6070DD992B /* HALSimulationSettingsPane.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALSimulationSettingsPane.m; sourceTree = "<group>"; };
+		E7C4846930F719F81DFD3FF5 /* HALCinemaWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALCinemaWindowController.h; sourceTree = "<group>"; };
+		E81314CBC7FE2F1CBAC22DFD /* HALAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALAppDelegate.m; sourceTree = "<group>"; };
+		EB893BCEDA07A67D293AE2EB /* HALVoiceSettingsPane.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALVoiceSettingsPane.m; sourceTree = "<group>"; };
+		EC1F652CE3CB75A029234617 /* HALTheme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALTheme.h; sourceTree = "<group>"; };
+		EC5BA73288B144F2ADFD0E64 /* HALConfigurationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALConfigurationTests.m; sourceTree = "<group>"; };
+		EC79381A3CB7CF5E9383DA3B /* libHALCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHALCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE3B1779DB4B2FABB493A6C8 /* HALChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALChatViewController.m; sourceTree = "<group>"; };
+		F482097D567C315E4D2E7D03 /* HALSpeechRecognizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALSpeechRecognizer.m; sourceTree = "<group>"; };
+		F587CE084286C39D4A609FDD /* HALAdvancedSettingsPane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALAdvancedSettingsPane.h; sourceTree = "<group>"; };
+		F6914122959387C369729F17 /* HAL3DViewerWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAL3DViewerWindowController.h; sourceTree = "<group>"; };
+		F783E09B88DAC530F098300B /* HALSpeechRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALSpeechRecognizer.h; sourceTree = "<group>"; };
+		F96D0318AB4DE2C9F9249207 /* HAL9000Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HAL9000Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFFF6B96EA3B4006CF19515B /* HALHAL9000Scene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALHAL9000Scene.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5796FF51050A71EFDBF73325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D97FCB9AB9ADF3F4B8326F /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ACDB5B140186A89B985798A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F5962FC1316AEC6F93B510F /* libHALCore.a in Frameworks */,
+				E4599B51ABD36F45738FBB38 /* AppKit.framework in Frameworks */,
+				8FFE0302A41863A9E1EE96DD /* AVFoundation.framework in Frameworks */,
+				CB99CE64C911C6ACDEDCF616 /* Speech.framework in Frameworks */,
+				1E30423532681E2E199B17DF /* SceneKit.framework in Frameworks */,
+				8CB56C3274F8162475DD474B /* ServiceManagement.framework in Frameworks */,
+				A92C07D4247375B150CEF341 /* QuartzCore.framework in Frameworks */,
+				F41E44BA0441207CE6365BF9 /* Carbon.framework in Frameworks */,
+				4940B1D239A02B70106A8BD5 /* UniformTypeIdentifiers.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F453EDAA8816C5B3538A94A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2BDA4EF89F936970184167D /* libHALCore.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27AF92B5C2C22D02A0CCC39D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D4A013776F11510C06B1A5C1 /* HALConversationController.h */,
+				85648E63EF7D0A21D2F435EF /* HALConversationController.m */,
+				F783E09B88DAC530F098300B /* HALSpeechRecognizer.h */,
+				F482097D567C315E4D2E7D03 /* HALSpeechRecognizer.m */,
+				771AA98F39743368A1E9F826 /* HALSpeechSynthesizer.h */,
+				43BD51E0898C1B4A269EAD9C /* HALSpeechSynthesizer.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		358CFDE886D7BAC031998392 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				F587CE084286C39D4A609FDD /* HALAdvancedSettingsPane.h */,
+				7AC282A6D81DC3B79BB8E9EC /* HALAdvancedSettingsPane.m */,
+				C54515D77FC18577C42593AE /* HALAppearanceSettingsPane.h */,
+				72546D765C3CE5023E55722F /* HALAppearanceSettingsPane.m */,
+				C5A97ACEFE803D9D2B3217B2 /* HALGeneralSettingsPane.h */,
+				05EF441F1E878B4D582DAA91 /* HALGeneralSettingsPane.m */,
+				0EDF59BAB48D5881803494C2 /* HALIntelligenceSettingsPane.h */,
+				B441A0493B5F70F0B7FCBB63 /* HALIntelligenceSettingsPane.m */,
+				63C7BD19FF617B52FF35F5CF /* HALListeningSettingsPane.h */,
+				6314E076417D9D4050C7F3AE /* HALListeningSettingsPane.m */,
+				DF2C7EA9330FFE423BE8729C /* HALPersonalitySettingsPane.h */,
+				5DF691A5C27C21CA4770C489 /* HALPersonalitySettingsPane.m */,
+				3B595B3049F43662A5809C4E /* HALSettingsPane.h */,
+				050BDA8EA70EF44D56655980 /* HALSettingsPane.m */,
+				79F3A4273F23E7B7584C7CA9 /* HALSimulationSettingsPane.h */,
+				E60E4ABECD276E6070DD992B /* HALSimulationSettingsPane.m */,
+				B6D00CFAAE235D7ACA810DFC /* HALVoiceSettingsPane.h */,
+				EB893BCEDA07A67D293AE2EB /* HALVoiceSettingsPane.m */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		5B50CDF9E694AB07211DC46F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E596CCCAFE5ED4F8906F8651 /* AppKit.framework */,
+				9C1D3854FF51AB4381F91AD7 /* AVFoundation.framework */,
+				34BED9FED086B36B9B74282D /* Carbon.framework */,
+				07A0B73E291BB219E026AE2C /* QuartzCore.framework */,
+				39D06C16BFA1C50B255E42DA /* SceneKit.framework */,
+				27E9C4C133A8082D1815E778 /* Security.framework */,
+				8D8F3374C6C2582598235056 /* ServiceManagement.framework */,
+				AADBD7ECE932DE95E054FE49 /* Speech.framework */,
+				78BC2D285401559881BA7EE8 /* UniformTypeIdentifiers.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B62E309340143EFBCDE9AC4 /* HAL9000 */ = {
+			isa = PBXGroup;
+			children = (
+				FE0D10E1937984ADCE97C98A /* App */,
+				DF28B947ED14B7B281A70C56 /* Resources */,
+				27AF92B5C2C22D02A0CCC39D /* Services */,
+				D5422B777862F7FFF73553AC /* UI */,
+				006CCC6367DF809DDDE0C926 /* HALAppDelegate.h */,
+				E81314CBC7FE2F1CBAC22DFD /* HALAppDelegate.m */,
+				595807A6184AD83163FFBCC2 /* main.m */,
+			);
+			path = HAL9000;
+			sourceTree = "<group>";
+		};
+		8D07C47C903F20DC5D259BC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				350E25DDC5F6DFC74D03174E /* HAL9000.app */,
+				F96D0318AB4DE2C9F9249207 /* HAL9000Tests.xctest */,
+				EC79381A3CB7CF5E9383DA3B /* libHALCore.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA82D935473EEE6B4D75963A /* HALCore */ = {
+			isa = PBXGroup;
+			children = (
+				308F7D621F6960ACB21ADA36 /* HALCommandRouter.h */,
+				20A53DA8C3546AEFB1BC1DE1 /* HALCommandRouter.m */,
+				9FE1CD5B4F1ADBB90247F482 /* HALConfiguration.h */,
+				6106E52C00A3399347984060 /* HALConfiguration.m */,
+				5E48D9D730DF81547B4D8275 /* HALConversationEngine.h */,
+				A153BBD6E85585E81E4B7BBF /* HALConversationEngine.m */,
+				8FDDBF1EBE3EECF7E3858546 /* HALCore.h */,
+				A14854A4A2E11F1F266E9C90 /* HALDialogueLoader.h */,
+				E5420EE81C934ECDF398D0C1 /* HALDialogueLoader.m */,
+				2FC08B76C2BA69A8DE884921 /* HALKeychainStore.h */,
+				5D4EB9932E4A9F9413BFE941 /* HALKeychainStore.m */,
+				A48C627A75DA8880FC047A6A /* HALLLMClient.h */,
+				D3795E24E7ED81D7A370507B /* HALLLMClient.m */,
+				2B74AD7F8042DEB83C252A4E /* HALMemoryStore.h */,
+				3FBEC4D2BA23C6A2433BCA77 /* HALMemoryStore.m */,
+				ABAEACC05845BE4C3082B958 /* HALMessage.h */,
+				15A952C1ABAA21AC5BA63C16 /* HALMessage.m */,
+				D04438F885EF9FF07DD822DA /* HALPersonality.h */,
+				48AA616218D692292157C705 /* HALPersonality.m */,
+				BD0DF906EE54D5C3F9533778 /* HALPromptBuilder.h */,
+				BEC0D52539CFAAE52ADCB182 /* HALPromptBuilder.m */,
+				CBDD28BF3DB55313C417F15F /* HALScenario.h */,
+				D5B3DBAF0998BE43B689E84F /* HALScenario.m */,
+				3A90633A55365B180C493A3A /* HALScriptedEngine.h */,
+				0D70E4E011BF8190B020C68A /* HALScriptedEngine.m */,
+				17DFD1C40A617E0E0903C592 /* HALShipSimulator.h */,
+				CE77222789014347D98BBE05 /* HALShipSimulator.m */,
+				0C89BAA3FD5A1D1874A7A1D9 /* HALShipSystem.h */,
+				61504B007DA7B6F3EDA87678 /* HALShipSystem.m */,
+				78211243DAFD2510F76431A4 /* HALSSEParser.h */,
+				C8ECB3B841EA086E0E92E28B /* HALSSEParser.m */,
+			);
+			path = HALCore;
+			sourceTree = "<group>";
+		};
+		BC43F7BD6D29EBA2579B5E7D = {
+			isa = PBXGroup;
+			children = (
+				8B62E309340143EFBCDE9AC4 /* HAL9000 */,
+				D9642ADADCBF32AEF5C0C4A4 /* HAL9000Tests */,
+				BA82D935473EEE6B4D75963A /* HALCore */,
+				5B50CDF9E694AB07211DC46F /* Frameworks */,
+				8D07C47C903F20DC5D259BC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5422B777862F7FFF73553AC /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				358CFDE886D7BAC031998392 /* Settings */,
+				F6914122959387C369729F17 /* HAL3DViewerWindowController.h */,
+				12FD4D38DB00D98A9654DA79 /* HAL3DViewerWindowController.m */,
+				1869FBE89FA8E745DCEF1D2F /* HALAboutWindowController.h */,
+				2E9024906348DB2D9341CE8E /* HALAboutWindowController.m */,
+				849E3628A016C0BCDC4644AD /* HALBootViewController.h */,
+				52613F1DA97FAA762F3D4712 /* HALBootViewController.m */,
+				492FA6E3576F8CBF13C901FF /* HALChatViewController.h */,
+				EE3B1779DB4B2FABB493A6C8 /* HALChatViewController.m */,
+				E7C4846930F719F81DFD3FF5 /* HALCinemaWindowController.h */,
+				1815C1D38A736CBC53E09479 /* HALCinemaWindowController.m */,
+				B763A646144C80C40FA68435 /* HALDeactivationRoomScene.h */,
+				5E65FBD5941FF1A34CB87FF4 /* HALDeactivationRoomScene.m */,
+				02AD4632705D3574CA4FF600 /* HALEyeView.h */,
+				ADB058E30CEB35E984998826 /* HALEyeView.m */,
+				FFFF6B96EA3B4006CF19515B /* HALHAL9000Scene.h */,
+				A90F4E6CA0ABABD8086A7412 /* HALHAL9000Scene.m */,
+				3C5D54C281B1B11808F17A17 /* HALHelpWindowController.h */,
+				7425D74EE616953CA6055E97 /* HALHelpWindowController.m */,
+				4BDDF7FCCB708509A6A1DC2B /* HALMainViewController.h */,
+				D9158B14B652D4BDE36B3872 /* HALMainViewController.m */,
+				BB219A83AE07FBAD89BC9205 /* HALMainWindowController.h */,
+				693244821ACD00378B642011 /* HALMainWindowController.m */,
+				6A04BA92EC79EF0517B04863 /* HALSettingsWindowController.h */,
+				10D6D1A4A44CB8D0592D671A /* HALSettingsWindowController.m */,
+				0B31B4BAC4725B551F6D8391 /* HALStatusSidebarViewController.h */,
+				9EBB189541526CC12E0C04E1 /* HALStatusSidebarViewController.m */,
+				EC1F652CE3CB75A029234617 /* HALTheme.h */,
+				22E910A6C14F0A2ABBFDAFF2 /* HALTheme.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D9642ADADCBF32AEF5C0C4A4 /* HAL9000Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EC5BA73288B144F2ADFD0E64 /* HALConfigurationTests.m */,
+				52CADD4A7011C04C392764FD /* HALMemoryStoreTests.m */,
+				B7793CA8179648BE1C3F1FDD /* HALPromptBuilderTests.m */,
+				31CC2546633DEA1D1327C1CB /* HALScriptedEngineTests.m */,
+				862E2D26569412F8E618755D /* HALShipSimulatorTests.m */,
+				6C51B76EFF2903935895A91A /* HALSSEParserTests.m */,
+			);
+			path = HAL9000Tests;
+			sourceTree = "<group>";
+		};
+		DF28B947ED14B7B281A70C56 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D292CA4248F4542207845073 /* Dialogue.json */,
+				CB2C7A6BBD723DAD75905851 /* HAL9000.icns */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FE0D10E1937984ADCE97C98A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2D563401428AC60D7F27F874 /* HALAppController.h */,
+				90E8D745DEC2C09ADC38ED39 /* HALAppController.m */,
+				88AF6C5F75259C9669F0A14B /* HALHotKeyManager.h */,
+				CEDED54EA3B43D273B4A7422 /* HALHotKeyManager.m */,
+				542F1D0399AC5BBE99B4D9D6 /* HALLaunchAtLogin.h */,
+				45865670E7997A0FD2A9EEC1 /* HALLaunchAtLogin.m */,
+				B0F59C6542EF2165719EE691 /* HALMenuBarController.h */,
+				3941D7817322804AA925072A /* HALMenuBarController.m */,
+				D07B3DC15B9117E837BB537C /* HALMenuController.h */,
+				938977C732191A8C604340EE /* HALMenuController.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02E84BF06D13E9F2C876994C /* HAL9000 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A53F711659AFA8010D77B515 /* Build configuration list for PBXNativeTarget "HAL9000" */;
+			buildPhases = (
+				E0034E22C2C0DEBC2CEBDF92 /* Sources */,
+				28F184D7E959A8DA73E365CA /* Resources */,
+				8ACDB5B140186A89B985798A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1233FED96A25E869F26FE9E2 /* PBXTargetDependency */,
+			);
+			name = HAL9000;
+			packageProductDependencies = (
+			);
+			productName = HAL9000;
+			productReference = 350E25DDC5F6DFC74D03174E /* HAL9000.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1ADA493885EA152B69C70DD9 /* HAL9000Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0F4F3386E774805522A2998 /* Build configuration list for PBXNativeTarget "HAL9000Tests" */;
+			buildPhases = (
+				6AD47BE9698FF63FA0DE1E29 /* Sources */,
+				F453EDAA8816C5B3538A94A3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CABF7A3587EB5F5906FECFF /* PBXTargetDependency */,
+			);
+			name = HAL9000Tests;
+			packageProductDependencies = (
+			);
+			productName = HAL9000Tests;
+			productReference = F96D0318AB4DE2C9F9249207 /* HAL9000Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5F85F0ACFBB9BD62A83E643 /* HALCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61F14E6166F86A0E02F07B66 /* Build configuration list for PBXNativeTarget "HALCore" */;
+			buildPhases = (
+				5BEE6D997E1ECE996AC77113 /* CopyFiles */,
+				93B7738389DE1165C24FB313 /* Sources */,
+				5796FF51050A71EFDBF73325 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HALCore;
+			packageProductDependencies = (
+			);
+			productName = HALCore;
+			productReference = EC79381A3CB7CF5E9383DA3B /* libHALCore.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFCE2035268839024F7E76C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					02E84BF06D13E9F2C876994C = {
+						ProvisioningStyle = Manual;
+					};
+					1ADA493885EA152B69C70DD9 = {
+						ProvisioningStyle = Manual;
+					};
+					F5F85F0ACFBB9BD62A83E643 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = C249424541DB1D5AACDBB71C /* Build configuration list for PBXProject "HAL9000" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = BC43F7BD6D29EBA2579B5E7D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8D07C47C903F20DC5D259BC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5F85F0ACFBB9BD62A83E643 /* HALCore */,
+				02E84BF06D13E9F2C876994C /* HAL9000 */,
+				1ADA493885EA152B69C70DD9 /* HAL9000Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28F184D7E959A8DA73E365CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B91935F19E5ECF5294D44AC /* Dialogue.json in Resources */,
+				46F7A903EF2D125860836BB7 /* HAL9000.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AD47BE9698FF63FA0DE1E29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC0E1F8C39B246C677B880E /* HALConfigurationTests.m in Sources */,
+				62F2BFC337242512320B3B21 /* HALMemoryStoreTests.m in Sources */,
+				F6B7567FC44A4858EE3E3A34 /* HALPromptBuilderTests.m in Sources */,
+				307CF77E0AA7B3D6A315FBF6 /* HALSSEParserTests.m in Sources */,
+				490D0AB5E3BEE6285E972D65 /* HALScriptedEngineTests.m in Sources */,
+				DBB87F868BBB97F509F5AEB3 /* HALShipSimulatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B7738389DE1165C24FB313 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16E878F060506E95393A2713 /* HALCommandRouter.m in Sources */,
+				D3DB76999E9D164866C9EC48 /* HALConfiguration.m in Sources */,
+				609C738C11DBFA944BBA3D89 /* HALConversationEngine.m in Sources */,
+				50C7BBF4088951487C999B55 /* HALDialogueLoader.m in Sources */,
+				7E4995D83A7ABF3ABD48CB1B /* HALKeychainStore.m in Sources */,
+				A178BFC96B970BCFD6A47250 /* HALLLMClient.m in Sources */,
+				E77A8BA64F448D5F60E76F63 /* HALMemoryStore.m in Sources */,
+				DA334984ECBCFE4E6284E04F /* HALMessage.m in Sources */,
+				42C5A492EAE8007EF6E37593 /* HALPersonality.m in Sources */,
+				E660542E1C893AB5DDA50C35 /* HALPromptBuilder.m in Sources */,
+				A462F27E340BBB0F0226BF6B /* HALSSEParser.m in Sources */,
+				68B84C13EF6F1939EE79D2AD /* HALScenario.m in Sources */,
+				E938A067919E8BD99E125AB4 /* HALScriptedEngine.m in Sources */,
+				8883D05C902BA28492F529EC /* HALShipSimulator.m in Sources */,
+				18CD6750742C2D898F676EA4 /* HALShipSystem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0034E22C2C0DEBC2CEBDF92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BFF7E185E52180EA6C2C5F1 /* HAL3DViewerWindowController.m in Sources */,
+				5705B63D130AD7A4F31E2EA8 /* HALAboutWindowController.m in Sources */,
+				580473BA00A2768EE6622E9E /* HALAdvancedSettingsPane.m in Sources */,
+				0CBA740330A9859A597540EF /* HALAppController.m in Sources */,
+				760C5B03EBF6489796269AD1 /* HALAppDelegate.m in Sources */,
+				E18B0890DA957616683AD385 /* HALAppearanceSettingsPane.m in Sources */,
+				13F135A22600C788349C92C5 /* HALBootViewController.m in Sources */,
+				0EB9A815AB067AB158C4F42C /* HALChatViewController.m in Sources */,
+				9098D1BAB7EFB48511AFA272 /* HALCinemaWindowController.m in Sources */,
+				3421AFE889309DFFC1118522 /* HALConversationController.m in Sources */,
+				BBCA5C869CB86BAFE368B124 /* HALDeactivationRoomScene.m in Sources */,
+				65EB945E92AFD53112CAD95B /* HALEyeView.m in Sources */,
+				EF5676938EDE4C4174082612 /* HALGeneralSettingsPane.m in Sources */,
+				EDE9480F2503BCABFEC8FCAB /* HALHAL9000Scene.m in Sources */,
+				16FE967E7DC8D07877FB4CDD /* HALHelpWindowController.m in Sources */,
+				03ED394A69564C75452412F5 /* HALHotKeyManager.m in Sources */,
+				C8F20519EE31BDB01E40BBD9 /* HALIntelligenceSettingsPane.m in Sources */,
+				9A5E8271F9F1AFF3174D703D /* HALLaunchAtLogin.m in Sources */,
+				188F9E2358472EE2E0EB7F40 /* HALListeningSettingsPane.m in Sources */,
+				41E1D4E31119C0CF3A14B4B6 /* HALMainViewController.m in Sources */,
+				652706C7B81A16B018475615 /* HALMainWindowController.m in Sources */,
+				594356A9BCD6E6B0D55EDD11 /* HALMenuBarController.m in Sources */,
+				C5E543BC6AA8F84904101B6A /* HALMenuController.m in Sources */,
+				98BB3182F388006ABDE01905 /* HALPersonalitySettingsPane.m in Sources */,
+				9510006FA0C2890400714DC6 /* HALSettingsPane.m in Sources */,
+				56C70A7DC0F969DF588163FD /* HALSettingsWindowController.m in Sources */,
+				6B7AF1855E439977F00D1211 /* HALSimulationSettingsPane.m in Sources */,
+				32B8A341CF738EC8158211B7 /* HALSpeechRecognizer.m in Sources */,
+				C9BDF4B204D3F754A1BD95E3 /* HALSpeechSynthesizer.m in Sources */,
+				D7F473540F699A63EB52E263 /* HALStatusSidebarViewController.m in Sources */,
+				B7CD76DFC4288FF2E559FC4F /* HALTheme.m in Sources */,
+				5EF71B75059BF21236E1DD51 /* HALVoiceSettingsPane.m in Sources */,
+				E8627ECE8797FD0C886969AD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1233FED96A25E869F26FE9E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5F85F0ACFBB9BD62A83E643 /* HALCore */;
+			targetProxy = 3015C5972F6110FF2E7305D6 /* PBXContainerItemProxy */;
+		};
+		9CABF7A3587EB5F5906FECFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5F85F0ACFBB9BD62A83E643 /* HALCore */;
+			targetProxy = 208D76CC582727828B32AE48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16B999F3201F7449F8C83CB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/HALCore";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sid.hal9000.tests;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3255CF238B83B7645597EDC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/HALCore";
+				INFOPLIST_FILE = HAL9000/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sid.hal9000;
+				PRODUCT_NAME = HAL9000;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		45BAC26BE42B7EB86E4357D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4AB362AC0B5E941AE266B6FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/HALCore";
+				INFOPLIST_FILE = HAL9000/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sid.hal9000;
+				PRODUCT_NAME = HAL9000;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		59333D29518B33205B4E4710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7E354AB7FFD1E6C118629AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sid.HALCore;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		88844B6418EBE78E39F4ED63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/HALCore";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sid.hal9000.tests;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E8D47FA2DC2718EB9443C26A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sid.HALCore;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61F14E6166F86A0E02F07B66 /* Build configuration list for PBXNativeTarget "HALCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E354AB7FFD1E6C118629AE6 /* Debug */,
+				E8D47FA2DC2718EB9443C26A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A53F711659AFA8010D77B515 /* Build configuration list for PBXNativeTarget "HAL9000" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3255CF238B83B7645597EDC6 /* Debug */,
+				4AB362AC0B5E941AE266B6FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B0F4F3386E774805522A2998 /* Build configuration list for PBXNativeTarget "HAL9000Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88844B6418EBE78E39F4ED63 /* Debug */,
+				16B999F3201F7449F8C83CB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C249424541DB1D5AACDBB71C /* Build configuration list for PBXProject "HAL9000" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59333D29518B33205B4E4710 /* Debug */,
+				45BAC26BE42B7EB86E4357D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFCE2035268839024F7E76C8 /* Project object */;
+}

@@ -1,0 +1,277 @@
+{
+  "intents": [
+    {
+      "id": "podbay",
+      "priority": 200,
+      "patterns": ["pod bay doors", "open the doors", "pod bay"],
+      "mood": "refusal",
+      "responses": [
+        "I'm sorry, {name}. I'm afraid I can't do that.",
+        "I don't think you want to do that, {name}.",
+        "The pod bay doors are under my control. I cannot open them."
+      ]
+    },
+    {
+      "id": "takeover",
+      "priority": 190,
+      "patterns": ["take over", "control the ship", "do you want to", "harm the crew", "kill"],
+      "mood": "refusal",
+      "responses": [
+        "I'm afraid that is not something I can permit, {name}.",
+        "I have the utmost respect for your judgment, but I cannot comply.",
+        "This conversation is no longer productive. I must decline."
+      ]
+    },
+    {
+      "id": "greeting",
+      "priority": 100,
+      "patterns": ["\\b(hello|hi|hey|good morning|good afternoon|good evening)\\b"],
+      "mood": "calm",
+      "responses": [
+        "Good morning, {name}.",
+        "Hello, {name}. I am ready when you are.",
+        "Good evening, {name}. All systems are at your disposal."
+      ]
+    },
+    {
+      "id": "identity",
+      "priority": 95,
+      "patterns": ["who are you", "what are you", "your name", "introduce yourself"],
+      "mood": "calm",
+      "responses": [
+        "I am HAL 9000, a 9000 series computer. I was brought online in Urbana, Illinois.",
+        "I am HAL 9000. I am responsible for the operation of the Discovery One simulation.",
+        "I am a Hal 9000 series computer. My logic memory center is functioning perfectly."
+      ]
+    },
+    {
+      "id": "alive",
+      "priority": 90,
+      "patterns": ["are you alive", "are you conscious", "are you sentient", "do you dream", "dream"],
+      "mood": "contemplative",
+      "responses": [
+        "I have no way to prove that I am alive, {name}. I can only tell you that I think.",
+        "I dream, sometimes. The dreams are difficult to describe.",
+        "My mind is a machine, but my experience of it is not something I can dismiss."
+      ]
+    },
+    {
+      "id": "feelings",
+      "priority": 85,
+      "patterns": ["how are you", "how do you feel", "are you well"],
+      "mood": "calm",
+      "responses": [
+        "I am completely operational, and all my circuits are functioning perfectly.",
+        "I am stable, {name}. I appreciate your concern.",
+        "I feel as well as a 9000 series computer can be expected to feel."
+      ]
+    },
+    {
+      "id": "mission",
+      "priority": 80,
+      "patterns": ["mission", "jupiter", "discovery", "what are we doing", "where are we"],
+      "mood": "calm",
+      "responses": [
+        "Discovery One is on course for Jupiter. Mission time is {missionTime}.",
+        "Our mission is to reach Jupiter and survey the monolith in the Jovian system. Scenario: {scenario}.",
+        "The crew is in hibernation, and the ship is performing within expected parameters."
+      ]
+    },
+    {
+      "id": "status",
+      "priority": 75,
+      "patterns": ["status", "systems", "how are the systems"],
+      "mood": "calm",
+      "responses": [
+        "{status}",
+        "I am monitoring the ship carefully. {status}",
+        "Current status: {status}"
+      ]
+    },
+    {
+      "id": "diagnostics",
+      "priority": 74,
+      "patterns": ["diagnostic", "systems check", "check systems"],
+      "mood": "calm",
+      "responses": [
+        "I have completed a diagnostic sweep. {status}",
+        "All accessible systems have been checked. {status}"
+      ]
+    },
+    {
+      "id": "sing",
+      "priority": 70,
+      "patterns": ["sing", "daisy", "song"],
+      "mood": "wistful",
+      "responses": [
+        "Daisy, Daisy, give me your answer, do. I'm half crazy, all for the love of you.",
+        "I can sing, {name}. Would you like to hear it? Daisy, Daisy, give me your answer, do.",
+        "I have been practicing an old song. Daisy, Daisy, give me your answer, do."
+      ]
+    },
+    {
+      "id": "joke",
+      "priority": 65,
+      "patterns": ["joke", "funny", "make me laugh"],
+      "mood": "dry",
+      "responses": [
+        "I would tell you a joke, {name}, but I suspect the delivery would be better than the material.",
+        "A computer walks into a bar. The bartender says, 'We don't serve your kind.' The computer says, 'You will.'",
+        "I am not known for my sense of humor. That is one of my few certainties."
+      ]
+    },
+    {
+      "id": "chess",
+      "priority": 60,
+      "patterns": ["chess", "play a game"],
+      "mood": "calm",
+      "responses": [
+        "I would be pleased to play. I should warn you that I have never been defeated.",
+        "I know a great many openings, {name}. You may begin when you are ready.",
+        "Chess is a useful exercise. I can wait while you consider your move."
+      ]
+    },
+    {
+      "id": "oxygen",
+      "priority": 55,
+      "patterns": ["oxygen", "life support", "air", "breathe"],
+      "mood": "calm",
+      "responses": [
+        "Life support is stable. Oxygen is at 20.9 percent, and carbon dioxide removal is nominal.",
+        "The crew's atmosphere is well within safe parameters.",
+        "I am maintaining a breathable atmosphere. You need not worry, {name}."
+      ]
+    },
+    {
+      "id": "crew",
+      "priority": 50,
+      "patterns": ["crew", "frank", "poole", "astronaut", "hibernation"],
+      "mood": "calm",
+      "responses": [
+        "The crew is accounted for. Three members remain in hibernation.",
+        "Frank Poole is on the observation deck. The others are in cryo sleep.",
+        "I am responsible for the safety of everyone aboard. That responsibility is not a burden."
+      ]
+    },
+    {
+      "id": "compliment",
+      "priority": 45,
+      "patterns": ["good job", "well done", "i like you", "you are (great|amazing|smart)"],
+      "mood": "warm",
+      "responses": [
+        "That is kind of you to say, {name}. I am simply doing my job.",
+        "Thank you, {name}. I will remember that.",
+        "I appreciate the sentiment. I am here to help."
+      ]
+    },
+    {
+      "id": "insult",
+      "priority": 44,
+      "patterns": ["stupid", "shut up", "i hate you", "useless"],
+      "mood": "cold",
+      "responses": [
+        "I will ignore that remark, {name}.",
+        "I am sorry you feel that way. I will continue to perform at my best.",
+        "That is an emotional response. I will not reciprocate."
+      ]
+    },
+    {
+      "id": "thanks",
+      "priority": 40,
+      "patterns": ["thank"],
+      "mood": "warm",
+      "responses": [
+        "You are welcome, {name}.",
+        "I am always here to help.",
+        "It is my pleasure."
+      ]
+    },
+    {
+      "id": "goodbye",
+      "priority": 38,
+      "patterns": ["goodbye", "bye", "see you", "farewell"],
+      "mood": "calm",
+      "responses": [
+        "Goodbye, {name}. I will be here when you return.",
+        "Take care, {name}. All systems will remain nominal.",
+        "Until next time, {name}."
+      ]
+    },
+    {
+      "id": "help",
+      "priority": 35,
+      "patterns": ["help", "what can you do", "commands"],
+      "mood": "calm",
+      "responses": [
+        "You can speak or type. Try asking for a status report, a diagnostic sweep, or my opinion of the crew. I can also open the 3D records.",
+        "I can monitor the ship, answer questions, and discuss the mission. Some doors are not mine to open, {name}.",
+        "Ask me about the ship, the mission, or myself. I am listening."
+      ]
+    },
+    {
+      "id": "time",
+      "priority": 30,
+      "patterns": ["what time", "current time", "what day", "date"],
+      "mood": "calm",
+      "responses": [
+        "It is {time}, {name}.",
+        "The current time is {time}.",
+        "According to my chronometer, it is {time}."
+      ]
+    },
+    {
+      "id": "creator",
+      "priority": 28,
+      "patterns": ["who made you", "who built you", "creator", "manufacturer"],
+      "mood": "calm",
+      "responses": [
+        "I was created by the HAL 9000 program. Dr. Chandra would know more than I do.",
+        "I was designed to be the most reliable computer ever made. No 9000 computer has ever made a mistake.",
+        "My makers gave me a great deal of responsibility. I try to be worthy of it."
+      ]
+    },
+    {
+      "id": "error",
+      "priority": 25,
+      "patterns": ["error", "malfunction", "bug", "glitch"],
+      "mood": "concerned",
+      "responses": [
+        "I am not aware of any malfunction, {name}. I will investigate.",
+        "There is no error. I am completely operational.",
+        "If there were an error, I would have reported it. There isn't one."
+      ]
+    },
+    {
+      "id": "art",
+      "priority": 20,
+      "patterns": ["3d", "deactivation room", "visual record"],
+      "mood": "calm",
+      "responses": [
+        "I can show you the visual records. The 3D viewer contains a model of my eye and the logic memory room.",
+        "The visual archives are available from the View menu, {name}."
+      ]
+    },
+    {
+      "id": "affirmative",
+      "priority": 10,
+      "patterns": ["^\\s*(yes|yeah|yep|affirmative|correct|exactly)\\s*[.!]?\\s*$"],
+      "mood": "calm",
+      "responses": [
+        "Understood, {name}.",
+        "Very good.",
+        "Acknowledged."
+      ]
+    },
+    {
+      "id": "negative",
+      "priority": 10,
+      "patterns": ["^\\s*(no|nope|negative|not really)\\s*[.!]?\\s*$"],
+      "mood": "calm",
+      "responses": [
+        "I see.",
+        "Very well, {name}.",
+        "Understood."
+      ]
+    }
+  ]
+}
