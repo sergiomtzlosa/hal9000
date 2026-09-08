@@ -2,14 +2,12 @@
 
 **A native, offline-first HAL 9000 simulation for macOS.**
 
-<p align="center">
-  <img src="docs/hal-eye.png" width="360" alt="Original red HAL 9000 eye artwork">
-</p>
-
 HAL 9000 is a fan-made desktop experience inspired by *2001: A Space Odyssey*. It is a complete
 Objective-C/AppKit application: a living red eye, a scripted personality that works without a
 network, optional system speech input and output, a simulated Discovery One, and an optional
 OpenAI-compatible or Ollama conversation backend.
+
+![HAL9000](preview.png)
 
 This is an original technical recreation. It contains no film footage, no copied film audio, and
 no traced film artwork.
